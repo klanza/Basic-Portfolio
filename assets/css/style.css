@@ -1,0 +1,17 @@
+heading {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width:960px;
+}
+.name {
+    width:240px;
+    float:left;
+    background:#4aaaa5;
+}
+
+#navbar {
+    float:right;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
