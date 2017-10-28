@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--link rel="stylesheet" type="text/css" href="assets/css/reset.css"-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>
         Kenneth Lanza - Portfolio
@@ -21,59 +21,64 @@
             </div>
             <!-- Navigation links to move around portfolio -->
             <nav id="navbar">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" id="index">About</a>
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <a href="contact.html"id="contact">Contact</a>
             </nav>
         </div>
     </header>
     <!-- About me section -->
-    <section class="aboutme">
-        <!-- Heading to label section -->
-        <h1>
-            About Me
-        </h1>
-        <!-- Profile image -->
-        <img src="assets/images/profile.jpg" id="profilepic" alt="Profile Picture">
-        <!-- Text describing myself -->
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at neque a justo auctor finibus. Curabitur odio lacus, consequat
-            a lorem non, mattis facilisis lectus. Integer volutpat neque ut bibendum efficitur. Vestibulum nec euismod orci,
-            quis convallis arcu. Mauris felis velit, malesuada eu rhoncus sit amet, finibus eu mauris. Maecenas sed nunc
-            mi. Donec est magna, dignissim consectetur nunc tempor, auctor pellentesque ipsum. Nam eget velit et tortor condimentum
-            suscipit. Morbi tempus lacinia arcu, vel ullamcorper tellus dictum blandit. Mauris sodales pretium libero ut
-            ultrices. Pellentesque ac sodales dui. Mauris commodo faucibus mi, sit amet maximus eros elementum non. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum ligula nisl. Vestibulum ligula dui, pharetra
-            nec faucibus id, lobortis efficitur quam. Donec volutpat eu diam quis vulputate.
-        </p>
-        <p>
-            Curabitur faucibus tempus laoreet. Nunc a mi interdum ex lobortis imperdiet. Aliquam erat volutpat. Proin accumsan purus
-            pulvinar dolor congue fermentum. Mauris tempor ipsum eu eros sollicitudin faucibus. Etiam pretium, neque eget
-            cursus congue, massa justo accumsan sapien, sit amet consequat est lacus quis elit. Etiam egestas faucibus erat,
-            sit amet vehicula nisi volutpat eu. Donec sodales quis dolor ut ultrices. Nulla blandit ligula in enim interdum
-            venenatis. Ut nec mollis erat. Pellentesque at nulla vitae erat mollis malesuada. Vestibulum vitae hendrerit
-            sapien. Etiam egestas ex vitae mauris vulputate, lobortis fringilla nisi sodales. Integer vulputate dui sed dignissim
-            efficitur.
-        </p>
-    </section>
-    <section class="sidebar">
-        <!--Heading for sidebar-->
-        <h2>
-            Connect with Me
-        </h2>
-        <!--Icons with links to outside pages-->
-        <nav id="navimages">
-            <a href="https://github.com/klanza" target="blank">
-                <img src="assets/images/github.svg" alt="GitHub Profile">
-            </a>
-            <a href="https://www.linkedin.com/in/kennethlanza/" target="blank">
-                <img src="assets/images/linkedin.svg" alt="LinkedIn Profile">
-            </a>
-            <a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
-                <img src="assets/images/stackoverflow.svg" alt="Stack Overflow Profile">
-            </a>
-        </nav>
-    </section>
+    <section class="container">
+        <section class="main">
+            <!-- Heading to label section -->
+            <h1>
+                About Me
+            </h1>
+            <!-- Profile image -->
+            <img src="assets/images/profile.jpg" id="profilepic" alt="Profile Picture">
+            <!-- Text describing myself -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at neque a justo auctor finibus. Curabitur odio lacus, consequat
+                a lorem non, mattis facilisis lectus. Integer volutpat neque ut bibendum efficitur. Vestibulum nec euismod orci,
+                quis convallis arcu. Mauris felis velit, malesuada eu rhoncus sit amet, finibus eu mauris. Maecenas sed nunc
+                mi. Donec est magna, dignissim consectetur nunc tempor, auctor pellentesque ipsum. Nam eget velit et tortor condimentum
+                suscipit. Morbi tempus lacinia arcu, vel ullamcorper tellus dictum blandit. Mauris sodales pretium libero ut
+                ultrices. Pellentesque ac sodales dui. Mauris commodo faucibus mi, sit amet maximus eros elementum non. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum ligula nisl. Vestibulum ligula dui, pharetra
+                nec faucibus id, lobortis efficitur quam. Donec volutpat eu diam quis vulputate.
+            </p>
+            <p>
+                Curabitur faucibus tempus laoreet. Nunc a mi interdum ex lobortis imperdiet. Aliquam erat volutpat. Proin accumsan purus
+                pulvinar dolor congue fermentum. Mauris tempor ipsum eu eros sollicitudin faucibus. Etiam pretium, neque eget
+                cursus congue, massa justo accumsan sapien, sit amet consequat est lacus quis elit. Etiam egestas faucibus erat,
+                sit amet vehicula nisi volutpat eu. Donec sodales quis dolor ut ultrices. Nulla blandit ligula in enim interdum
+                venenatis. Ut nec mollis erat. Pellentesque at nulla vitae erat mollis malesuada. Vestibulum vitae hendrerit
+                sapien. Etiam egestas ex vitae mauris vulputate, lobortis fringilla nisi sodales. Integer vulputate dui sed dignissim
+                efficitur.
+            </p>
+        </section>
+        <section class="sidebar">
+            <!--Heading for sidebar-->
+            <h2>
+                Connect with Me
+            </h2>
+            <!--Icons with links to outside pages-->
+            <nav id="navimages">
+                <a href="https://github.com/klanza" target="blank">
+                    <img src="assets/images/github.svg" alt="GitHub Profile" class="github">
+                </a>
+                <a href="https://www.linkedin.com/in/kennethlanza/" target="blank">
+                    <img src="assets/images/linkedin.svg" alt="LinkedIn Profile" class="linkedin">
+                </a>
+                <a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
+                    <img src="assets/images/stackoverflow.svg" alt="Stack Overflow" class="stackover">
+                </a>
+                <!--<a href="https://stackoverflow.com/users/8782959/kenneth-lanza" target="blank">
+                    <img src="assets/images/stackoverflow64.png" alt="Stack Overflow Profile" class="stackover">
+                </a>-->
+            </nav>
+            </section>
+        </section>
     <!-- Footer with copyright symbol and copyright info-->
     <footer>
         <div class="footing">
